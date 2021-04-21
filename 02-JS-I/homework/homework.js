@@ -35,13 +35,13 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return x+y;
+  return x + y;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return x-y;
+  return x - y;
 }
 
 function multiplica(x, y) {
@@ -160,6 +160,7 @@ function esPositivo(numero) {
   else {
     return "Es negativo";
 }
+}
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
@@ -172,14 +173,16 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre + '' + apellido;
+  
+  return nombre + ' ' + apellido;
 }
+  
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'Hola ' +" " + nombre + '!';
+  return 'Hola' + " " + nombre + '!';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -220,10 +223,10 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.length > 1){
-    return "Dato incorrecto"
+    return "Dato incorrecto";
   }
   if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
-    return "Es vocal"
+    return "Es vocal";
   }
 }
 
